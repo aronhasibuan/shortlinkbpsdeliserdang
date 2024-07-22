@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">shortlinkbpsds</string>
+    <string name="foto_pegawai_bps_ds">Foto Pegawai BPS DS</string>
+    <string name="deliserdangkab_bps_go_id">deliserdangkab.bps.go.id</string>
+    <string name="shortlink_website_bps_kabupaten_deli_serdang">Shortlink Website BPS Kabupaten Deli Serdang</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="click_icon">Click Icon</string>
+    <string name="simpeg_logo">Simpeg logo</string>
+    <string name="bos_logo">BOS logo</string>
+    <string name="asamurat_logo">asamurat logo</string>
+    <string name="tkonline_logo">tkonline logo</string>
+    <string name="ppid_logo">ppid logo</string>
+    <string name="kipapp_logo">kipapp logo</string>
+    <string name="media_sosial_bps_kabupaten_deli_serdang">Media Sosial BPS Kabupaten Deli Serdang</string>
+    <string name="badan_pusat_statistik_kabupaten_deli_serdang_statistics_of_deli_serdang_regency">Badan Pusat Statistik Kabupaten Deli Serdang (Statistics of Deli Serdang Regency)</string>
+    <string name="_2024_made_with_bps_kabupaten_deli_serdang">Ⓒ 2024 | Made with 💕 BPS Kabupaten Deli Serdang</string>
+    <string name="map_bps">map bps</string>
+    <string name="instagram_logo">instagram logo</string>
+    <string name="x_logo">x logo</string>
+    <string name="facebook_logo">facebook logo</string>
+    <string name="youtube_logo">youtube logo</string>
+    <string name="email_logo">email logo</string>
+</resources>

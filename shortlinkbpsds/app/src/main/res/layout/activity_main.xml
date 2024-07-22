@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDD3DA"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="516dp"
+        android:layout_height="309dp"
+        android:contentDescription="@string/foto_pegawai_bps_ds"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_pegawai_contrast" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="326dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="42dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="319dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="46dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:onClick="openWebBPS"
+        android:text="@string/deliserdangkab_bps_go_id"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="24dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="337dp"
+        android:contentDescription="@string/search_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic__round_search" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="52dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="329dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="30dp"
+        android:contentDescription="@string/click_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tabler__hand_click" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="413dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="309dp"
+        android:background="#170075"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/shortlink_website_bps_kabupaten_deli_serdang"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="219dp"
+        android:background="@color/white"
+        android:importantForAccessibility="no"
+        android:onClick="openSimpeg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="151dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="239dp"
+        android:contentDescription="@string/simpeg_logo"
+        android:onClick="openSimpeg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_simpeg" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        android:importantForAccessibility="no"
+        android:onClick="openBackoffice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="96dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="253dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="62dp"
+        android:background="@color/white"
+        android:contentDescription="@string/bos_logo"
+        android:onClick="openBackoffice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_backoffice_selindo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="219dp"
+        android:background="@color/white"
+        android:importantForAccessibility="no"
+        android:onClick="openAsamurat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="173dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="219dp"
+        android:contentDescription="@string/asamurat_logo"
+        android:onClick="openAsamurat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_asamurat" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="429dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        android:importantForAccessibility="no"
+        android:onClick="openTKonline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="151dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="32dp"
+        android:contentDescription="@string/tkonline_logo"
+        android:onClick="openTKonline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_tk_online" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="176dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="219dp"
+        android:background="@color/white"
+        android:importantForAccessibility="no"
+        android:onClick="openPPID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="169dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="218dp"
+        android:contentDescription="@string/ppid_logo"
+        android:onClick="openPPID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_ppid" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="179dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:importantForAccessibility="no"
+        android:onClick="openKIPapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="146dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="46dp"
+        android:contentDescription="@string/kipapp_logo"
+        android:onClick="openKIPapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_kipapp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="415dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="575dp"
+        android:background="#170075"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/media_sosial_bps_kabupaten_deli_serdang"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="414dp"
+        android:layout_height="15dp"
+        android:background="#170075"
+        android:fontFamily="sans-serif-black"
+        android:text="Badan Pusat Statistik Kab. Deli Serdang (Statistics of Deli Serdang Regency)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="412dp"
+        android:layout_height="17dp"
+        android:layout_marginBottom="14dp"
+        android:background="#170075"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/_2024_made_with_bps_kabupaten_deli_serdang"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="641dp"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="135dp"
+        android:contentDescription="@string/instagram_logo"
+        android:onClick="openInstagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/entypo_social__instagram_with_circle" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="311dp"
+        android:layout_marginBottom="45dp"
+        android:contentDescription="@string/x_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/twitter_x_logo_black_round_20851" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="45dp"
+        android:contentDescription="@string/facebook_logo"
+        android:onClick="openFacebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic__sharp_facebook" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="136dp"
+        android:contentDescription="@string/youtube_logo"
+        android:onClick="openYoutube"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/entypo_social__youtube_with_circle" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="135dp"
+        android:contentDescription="@string/email_logo"
+        android:onClick="openEmail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/el__envelope_alt" />
+
+    <ImageView
+        android:id="@+id/informationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
+        android:onClick="showTooltip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
